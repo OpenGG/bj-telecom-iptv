@@ -1,0 +1,14 @@
+{
+  "name": "beijing-telecom-iptv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OpenGG <liy099@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrent-queue": "^7.0.2"
+  }
+}
