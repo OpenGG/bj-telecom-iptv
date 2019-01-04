@@ -4,6 +4,8 @@
   "description": "",
   "main": "capture.js",
   "scripts": {
+    "prebuild": "rm -f docs/iptv.m3u",
+    "build": "./build.sh -i docs/iptv-multicast.m3u -s http://192.168.198.11:8012 docs/iptv.m3u",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "OpenGG <liy099@gmail.com>",
