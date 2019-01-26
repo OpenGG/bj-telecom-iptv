@@ -81,7 +81,7 @@ const queue = Q()
 
       console.log('Running', execArgs.join(' '))
 
-      await exec(execArgs, 5 * 1000)
+      await exec(execArgs, 10 * 1000)
 
       await wait(1000);
 
